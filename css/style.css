@@ -1,0 +1,201 @@
+header {
+    -moz-box-shadow-bottom: 0 #000;
+    -webkit-box-shadow-bottom: 0 #000;
+    border: 1px solid #fff;
+    margin: 0;
+    padding: 0;
+    border-bottom: 0;
+}
+h1 {
+    text-align: center;
+    font-weight: 100;
+    color: #333;
+}
+section {
+    overflow: hidden;
+    min-height: 170px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    padding: 0.4em 0.9em;
+    margin: 0 -3px;
+    font-size: 6em;
+    display: inline-block;
+    color: #fff;
+    font-weight: 100;
+}
+
+aside {
+    float: right;
+}
+.listItem-3,
+.listItem-5,
+.listItem-9 {
+    background: #2f454e;
+}
+.listItem-2,
+.listItem-4 {
+    background: #2b8ead;
+}
+.listItem-1,
+.listItem-8 {
+    background: #6f98a8;
+}
+.listItem-6,
+.listItem-7 {
+    background: #bfbfbf;
+}
+.body-contents {
+    width: 960px;
+    margin: 0 auto;
+    background: #efefef;
+}
+.btn {
+    overflow: visible;
+    display: block;
+    width: 240px;
+    position: relative;
+    top: 0;
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #f7f7f7;
+    padding: 15px 50px;
+    margin: 25px 22px 0 10px;
+    border: 1px solid #c4c4c4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 0 #c4c4c4;
+    -moz-box-shadow: 0 5px 0 #c4c4c4;
+    -ms-box-shadow: 0 5px 0 #c4c4c4;
+    -o-box-shadow: 0 5px 0 #c4c4c4;
+    box-shadow: 0 5px 0 #c4c4c4;
+    color: #222;
+    text-shadow: 1px 1px 1px #fff;
+    -webkit-transition: All 250ms ease;
+    -moz-transition: All 250ms ease;
+    -o-transition: All 250ms ease;
+    -ms-transition: All 250ms ease;
+    transition: All 250ms ease;
+    padding: 0.8em 2em;
+}
+
+.btn:active {
+    position: relative;
+    top: 5px;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-transition: All 250ms ease;
+    -moz-transition: All 250ms ease;
+    -o-transition: All 250ms ease;
+    -ms-transition: All 250ms ease;
+    transition: All 250ms ease;
+}
+
+.btn.blue {
+    background: #72c3dc;
+    color: #fff;
+    border: 1px solid #2b8ead;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 0 #2b8ead;
+    -moz-box-shadow: 0 5px 0 #2b8ead;
+    -ms-box-shadow: 0 5px 0 #2b8ead;
+    -o-box-shadow: 0 5px 0 #2b8ead;
+    box-shadow: 0 5px 0 #2b8ead;
+    text-shadow: 1px 1px 1px #2b8ead;
+    font-weight: 100;
+}
+
+.line {
+    background: #333;
+    height: 7px;
+    opacity: 0.44;
+    margin-bottom: -7px;
+}
+
+footer {
+    font-size: 0.8em;
+    text-align: center;
+    color: #333;
+    padding: 5px;
+}
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+    .body-contents {
+        background: none;
+        width: 100%;
+    }
+    .line {
+        display: none;
+    }
+    aside {
+        float: none;
+        margin: 1em;
+        width: auto;
+        border: 0;
+        text-align: center;
+    }
+    header {
+        background: #333;
+        color: #fff;
+    }
+    h1 {
+        color: #fff;
+        height: 60px;
+    }
+    .btn {
+        overflow: visible;
+        padding: 15px 25px;
+        display: inline-block;
+        margin: 10px;
+        width: 135px;
+    }
+    ul li {
+        list-style: none;
+        padding: 0.3em;
+        display: block;
+        margin: 0;
+        color: #333;
+        font-size: 3em;
+        text-align: center;
+    }
+    .listItem-1,
+    .listItem-2,
+    .listItem-3,
+    .listItem-4,
+    .listItem-5,
+    .listItem-6,
+    .listItem-7,
+    .listItem-8,
+    .listItem-9 {
+        background: #efefef;
+        margin-bottom: 10px;
+    }
+    .listItem-1,
+    .listItem-8 {
+        border-left: .4em solid #6f98a8;
+    }
+    .listItem-2,
+    .listItem-4 {
+        border-left: .4em solid #2b8ead;
+    }
+    .listItem-3,
+    .listItem-5,
+    .listItem-9 {
+        border-left: .4em solid #2f454e;
+    }    
+    .listItem-6,
+    .listItem-7 {
+        border-left: 0.4em solid #bfbfbf;
+    }
+}
